@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url();
 html {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
@@ -11448,4 +11449,45 @@ iframe.uk-cover {
 .me-cannotplay span {
   padding: 15px;
   display: block;
+}
+
+body {
+  background-image: url(http://www.penguinproducer.com/Blog/wp-content/uploads/2016/12/Starfield.png);
+  margin: 0 auto;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+h1 {
+  color: #D9AB00;
+  text-transform: uppercase;
+}
+
+body h1,
+article p {
+  font-family: 'Roboto', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  margin: 15px;
+  width: 40%;
+  background-color: #F1F0F0;
+  padding: 10px 10px 50px 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba 0, 0, 0, 0.19;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.map {
+  margin-left: 25px;
 }
